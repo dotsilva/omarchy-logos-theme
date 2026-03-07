@@ -1,0 +1,83 @@
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#151515"
+
+# Main text color
+theme[main_fg]="#d2d2d2"
+
+# Title color for boxes
+theme[title]="#BAA0E8"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#BAA0E8"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#3E4452"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#d2d2d2"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#3E4452"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#A7DFEF"
+
+# Cpu box outline color
+theme[cpu_box]="#3E4452"
+
+# Memory/disks box outline color
+theme[mem_box]="#3E4452"
+
+# Net up/down box outline color
+theme[net_box]="#3E4452"
+
+# Processes box outline color
+theme[proc_box]="#3E4452"
+
+# Box divider line and small boxes line color
+theme[div_line]="#3E4452"
+
+# Temperature graph colors
+theme[temp_start]="#87E58E"
+theme[temp_mid]="#E8EDA2"
+theme[temp_end]="#DD6E6B"
+
+# CPU graph colors
+theme[cpu_start]="#87E58E"
+theme[cpu_mid]="#E8EDA2"
+theme[cpu_end]="#DD6E6B"
+
+# Mem/Disk free meter
+theme[free_start]="#87E58E"
+theme[free_mid]="#E8EDA2"
+theme[free_end]="#DD6E6B"
+
+# Mem/Disk cached meter
+theme[cached_start]="#87E58E"
+theme[cached_mid]="#E8EDA2"
+theme[cached_end]="#DD6E6B"
+
+# Mem/Disk available meter
+theme[available_start]="#87E58E"
+theme[available_mid]="#E8EDA2"
+theme[available_end]="#DD6E6B"
+
+# Mem/Disk used meter
+theme[used_start]="#87E58E"
+theme[used_mid]="#E8EDA2"
+theme[used_end]="#DD6E6B"
+
+# Download graph colors
+theme[download_start]="#87E58E"
+theme[download_mid]="#E8EDA2"
+theme[download_end]="#DD6E6B"
+
+# Upload graph colors
+theme[upload_start]="#87E58E"
+theme[upload_mid]="#E8EDA2"
+theme[upload_end]="#DD6E6B"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#87E58E"
+theme[process_mid]="#E8EDA2"
+theme[process_end]="#DD6E6B"

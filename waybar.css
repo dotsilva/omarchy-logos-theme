@@ -1,0 +1,50 @@
+@define-color background #151515;
+@define-color foreground #d2d2d2;
+
+/* Enforce font styling safely over local wildcard rules */
+window#waybar * {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Specificity override: beats local style.css opacity rules safely */
+window#waybar #workspaces button.empty {
+  opacity: 0.2;
+}
+
+/* Module Colors */
+#cpu,
+#battery,
+#pulseaudio,
+#custom-omarchy,
+#custom-screenrecording-indicator,
+#custom-update {
+  color: #BAA0E8;
+}
+
+#tray,
+#custom-expand-icon {
+  color: #d2d2d2;
+}
+
+#bluetooth,
+#network {
+  color: #87E58E;
+}
+
+#clock {
+  color: #d2d2d2;
+}
+
+/* Alert States */
+#custom-screenrecording-indicator.active,
+#custom-voxtype.recording {
+  color: #DD6E6B;
+}
+
+/* Tooltips */
+tooltip {
+  background-color: #151515;
+  border: 3px solid #BAA0E8;
+  font-weight: bold;
+}
