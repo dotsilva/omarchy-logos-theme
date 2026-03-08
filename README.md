@@ -5,7 +5,7 @@ an opionionated omarchy theme featuring Bible verses as background!
 ```
 omarchy-theme-install https://github.com/dotsilva/omarchy-diatheke-theme.git
 ```
-!(Image)[https://raw.githubusercontent.com/dotsilva/omarchy-diatheke-theme/master/preview.png]
+![omarchy diatheke theme preview](https://raw.githubusercontent.com/dotsilva/omarchy-diatheke-theme/master/preview.png)
 
 # credits
 
