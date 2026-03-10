@@ -68,10 +68,6 @@ return {
 
 					-- delimiters like ; , . :
 					["@punctuation.delimiter"] = { fg = c.flamingo },
-
-					-- Snacks Indent Overrides
-					SnacksIndentChunk = { fg = c.surface0, nocombine = true },
-					SnacksIndentScope = { fg = c.flamingo, nocombine = true },
 				}
 			end,
 		},
@@ -103,6 +99,19 @@ return {
 				},
 			},
 		},
+		config = function(_, opts)
+			require("snacks").setup(opts)
+
+			vim.api.nvim_set_hl(0, "SnacksIndentChunk", {
+				fg = "#362C38",
+				nocombine = true,
+			})
+
+			vim.api.nvim_set_hl(0, "SnacksIndentScope", {
+				fg = "#6B5645",
+				nocombine = true,
+			})
+		end,
 	},
 
 	{
