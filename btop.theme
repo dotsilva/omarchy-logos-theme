@@ -8,13 +8,13 @@ theme[main_fg]="#C2AE93"
 theme[title]="#DCAE3D"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#DCAE3D"
+theme[hi_fg]="#48A89F"
 
 # Background color of selected item in processes box
 theme[selected_bg]="#362C38"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#C2AE93"
+theme[selected_fg]="#DCAE3D"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#362C38"
