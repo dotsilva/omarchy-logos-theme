@@ -73,11 +73,11 @@ theme[download_mid]="#DCAE3D"
 theme[download_end]="#B83E46"
 
 # Upload graph colors
-theme[upload_start]="#698A55"
+theme[upload_start]="#729B59"
 theme[upload_mid]="#DCAE3D"
 theme[upload_end]="#B83E46"
 
 # Process box color gradient for threads, mem and cpu usage
-theme[process_start]="#698A55"
+theme[process_start]="#729B59"
 theme[process_mid]="#DCAE3D"
 theme[process_end]="#B83E46"
