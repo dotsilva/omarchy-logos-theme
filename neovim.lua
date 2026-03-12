@@ -58,9 +58,33 @@ return {
 
 					-- Gray/Dim (Secondary context, Background elements)
 					Comment = { fg = c.surface0, italic = true },
-					SnacksIndent = { fg = c.surface0, nocombine = true },
-					SnacksIndentScope = { fg = c.surface0, nocombine = true },
+					-- Indent Lines (Cyan for the active scope you are currently inside)
+					SnacksIndent = { fg = c.surface0, nocombine = true }, -- Inactive lines stay dim gray
+					SnacksIndentScope = { fg = c.teal, nocombine = true }, -- Active scope lights up Cyan
 					SnacksIndentChunk = { fg = c.teal, nocombine = true },
+
+					-- Noice UI (Command line interactions)
+					NoiceCmdlinePopupBorder = { fg = c.teal },
+					NoiceCmdlineIcon = { fg = c.teal },
+					NoiceCmdlinePopupBorderSearch = { fg = c.teal },
+					NoiceCmdlineIconSearch = { fg = c.teal },
+
+					-- Blink Autocomplete (Active matching text)
+					BlinkCmpLabelMatch = { fg = c.teal, bold = true },
+
+					-- Flash.nvim (Prevent jump labels from using Red/Yellow Alarms)
+					FlashLabel = { fg = c.base, bg = c.teal, bold = true },
+					FlashMatch = { fg = c.text, bg = c.surface0 },
+					FlashCurrent = { fg = c.base, bg = c.teal, bold = true },
+
+					-- Magenta (Structural Logic, Brackets & Punctuation)
+					["@punctuation"] = { fg = c.mauve },
+					["@punctuation.bracket"] = { fg = c.mauve },
+					["@punctuation.delimiter"] = { fg = c.mauve },
+					["@punctuation.special"] = { fg = c.mauve }, -- String Interpolation brackets
+					["@operator"] = { fg = c.mauve },
+					["@keyword"] = { fg = c.mauve, italic = true },
+					["@keyword.control"] = { fg = c.mauve, italic = true, bold = true },
 				}
 			end,
 		},
