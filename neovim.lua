@@ -39,15 +39,15 @@ return {
 			},
 			custom_highlights = function(c)
 				return {
-					-- Base UI (Blue = Active Focus)
-					Cursor = { fg = c.base, bg = c.blue },
-					lCursor = { fg = c.base, bg = c.blue },
-					CursorIM = { fg = c.base, bg = c.blue },
+					-- Base UI (Cyan = Active Focus/Interaction)
+					Cursor = { fg = c.base, bg = c.teal },
+					lCursor = { fg = c.base, bg = c.teal },
+					CursorIM = { fg = c.base, bg = c.teal },
 					Visual = { bg = c.surface0 },
 					CursorLine = { bg = c.surface0 },
-					CursorLineNr = { fg = c.blue, bold = true },
-					Search = { fg = c.base, bg = c.blue },
-					IncSearch = { fg = c.base, bg = c.blue },
+					CursorLineNr = { fg = c.teal, bold = true },
+					Search = { fg = c.base, bg = c.teal },
+					IncSearch = { fg = c.base, bg = c.teal },
 					PmenuSel = { bg = c.surface0 },
 
 					-- Gray/Dim (Secondary text)

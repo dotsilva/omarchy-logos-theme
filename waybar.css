@@ -13,7 +13,7 @@ window#waybar * {
 }
 
 window#waybar #workspaces button.empty { opacity: 0.2; }
-window#waybar #workspaces button.active { color: @blue; } /* Active Focus */
+window#waybar #workspaces button.active { color: @cyan; } /* Active Focus */
 
 /* Neutral / Default UI Elements */
 #tray, #custom-expand-icon, #clock, #custom-omarchy, #custom-update, #pulseaudio, #cpu {
