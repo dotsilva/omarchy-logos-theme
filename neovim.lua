@@ -50,53 +50,79 @@ return {
 					IncSearch = { fg = c.base, bg = c.teal },
 					PmenuSel = { bg = c.surface0 },
 
-					-- Gray/Dim (Secondary text)
+					-- Picker UI (Telescope/Snacks active prompts)
+					TelescopeMatching = { fg = c.teal, bold = true },
+					TelescopeSelectionCaret = { fg = c.teal },
+					TelescopeBorder = { fg = c.surface0 },
+					TelescopePromptBorder = { fg = c.teal },
+
+					-- Gray/Dim (Secondary context, Background elements)
 					Comment = { fg = c.surface0, italic = true },
 					SnacksIndent = { fg = c.surface0, nocombine = true },
 					SnacksIndentScope = { fg = c.surface0, nocombine = true },
-					SnacksIndentChunk = { fg = c.surface0, nocombine = true },
+					SnacksIndentChunk = { fg = c.teal, nocombine = true },
 
 					-- Magenta (Structural Logic & Punctuation)
-					["@punctuation.bracket"] = { fg = c.mauve },
-					["@punctuation.delimiter"] = { fg = c.mauve },
+					["@punctuation"] = { fg = c.mauve },
+					["@punctuation.special"] = { fg = c.mauve }, -- String Interpolation
 					["@operator"] = { fg = c.mauve },
 					["@keyword"] = { fg = c.mauve, italic = true },
 					["@keyword.control"] = { fg = c.mauve, italic = true, bold = true },
-					["@keyword.function"] = { fg = c.mauve, italic = true },
 
 					-- Blue (Structural Architecture: Load-bearing)
 					["@function"] = { fg = c.blue, bold = true },
 					["@function.call"] = { fg = c.blue },
-					["@method"] = { fg = c.blue, bold = true },
-					["@method.call"] = { fg = c.blue },
+					["@function.method"] = { fg = c.blue, bold = true },
+					["@function.method.call"] = { fg = c.blue },
+					["@function.builtin"] = { fg = c.blue },
+					["@function.macro"] = { fg = c.blue, bold = true },
 					["@constant"] = { fg = c.blue, bold = true },
 					["@type"] = { fg = c.blue, bold = true },
+					["@module"] = { fg = c.blue, bold = true },
 
 					-- Cyan (Contextual Metadata: References, Ephemeral info)
-					["@symbol"] = { fg = c.teal },
 					["@variable.parameter"] = { fg = c.teal, italic = true },
 					["@variable.builtin"] = { fg = c.teal, italic = true },
+					["@boolean"] = { fg = c.teal },
+					["@number"] = { fg = c.teal },
 
 					-- Green (Cargo: Additions, Strings)
 					["@string"] = { fg = c.green },
 
-					-- Yellow (Alarms: Warnings, Unstable States, Exceptions ONLY)
-					["@exception"] = { fg = c.yellow, bold = true },
+					-- Yellow/Red (Alarms: Warnings, Errors, Unstable States ONLY)
+					["@keyword.exception"] = { fg = c.yellow, bold = true },
 					DiagnosticWarn = { fg = c.yellow },
+					DiagnosticError = { fg = c.red },
 					Todo = { fg = c.yellow, bold = true, bg = c.surface0 },
 
-					-- Fix Bash built-ins and macros showing as Red
-					["@function.builtin"] = { fg = c.blue },
-					["@function.macro"] = { fg = c.blue },
-					["@keyword.builtin"] = { fg = c.blue },
+					-- EDGE CASES & SPECIFIC LANGUAGES --
 
-					-- Raw Data Primitives (Cyan: Ephemeral Info / Contextual Metadata)
-					["@boolean"] = { fg = c.teal },
-					["@number"] = { fg = c.teal },
-					["@float"] = { fg = c.teal },
+					-- Regex & Escapes (Separate from standard Green strings)
+					["@string.regexp"] = { fg = c.mauve },
+					["@string.escape"] = { fg = c.teal, bold = true },
+
+					-- ERB / HTML Noise (Fade the wrapper, pop the Ruby logic)
+					["@tag"] = { fg = c.text },
+					["@tag.delimiter"] = { fg = c.surface0 },
+					["@tag.attribute"] = { fg = c.text, italic = true },
+
+					-- Fix Ruby Symbols (They were bleeding into Magenta)
+					["@string.special.symbol"] = { fg = c.teal },
+					["@symbol"] = { fg = c.teal },
+
+					-- Bash Variables (Prevent bleeding into Magenta keywords)
+					["@variable.parameter.bash"] = { fg = c.teal, italic = true },
+					["@variable.bash"] = { fg = c.text },
+
+					-- Specific Comment Alerts (Force High Contrast)
+					["@comment.todo"] = { fg = c.base, bg = c.yellow, bold = true },
+					["@comment.warning"] = { fg = c.base, bg = c.yellow, bold = true },
+					["@comment.error"] = { fg = c.base, bg = c.red, bold = true },
 
 					-- Standard Data (Foreground)
 					["@variable"] = { fg = c.text },
+					["@variable.member"] = { fg = c.text }, -- Prevent object property coloring
+					["@property"] = { fg = c.text }, -- Prevent object property coloring
 				}
 			end,
 		},
