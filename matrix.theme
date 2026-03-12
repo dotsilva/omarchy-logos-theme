@@ -1,0 +1,71 @@
+supper_night - john 13:30
+variant_1 = "#243342"
+variant_2 = "#202E3B"
+variant_3 = "#1C2934"
+variant_4 = "#18242D"
+variant_5 = "#141F26"
+variant_6 = "#101A1F"
+variant_7 = "#0C1518"
+
+covenant_wine - mathew 26:27-29
+variant_1 = "#B83E46"
+variant_2 = "#A33E45"
+variant_3 = "#8E3E43"
+variant_4 = "#7A3D40"
+variant_5 = "#653C3E"
+variant_6 = "#503A3B"
+variant_7 = "#3B3939"
+
+gethsemane_oil - exodus 27:20; Mathew 26:36
+variant_1 = "#C9CF63"
+variant_2 = "#B5BA59"
+variant_3 = "#A1A54F"
+variant_4 = "#8D9045"
+variant_5 = "#797B3B"
+variant_6 = "#656631"
+variant_7 = "#515127"
+
+kking_sash - revelation 1:13
+variant_1 = "#DCAE3D"
+variant_2 = "#C49A36"
+variant_3 = "#AC862F"
+variant_4 = "#947228"
+variant_5 = "#785C27"
+variant_6 = "#5B4722"
+variant_7 = "#3F331E"
+
+empty_tomb_morning - mark 16:2
+variant_1 = "#6C9FBF"
+variant_2 = "#618FAC"
+variant_3 = "#567F99"
+variant_4 = "#4B6F86"
+variant_5 = "#405F73"
+variant_6 = "#354F60"
+variant_7 = "#2A3F4D"
+
+thorned_veil - exodus 26:31, Mathew 27:51
+variant_1 = "#8B476D"
+variant_2 = "#7D4062"
+variant_3 = "#6F3957"
+variant_4 = "#61324C"
+variant_5 = "#532B41"
+variant_6 = "#452436"
+variant_7 = "#371D2B"
+
+water_of_life - revelation 22:1,17
+variant_1 = "#40BE96"
+variant_2 = "#3AAB87"
+variant_3 = "#349878"
+variant_4 = "#2E8569"
+variant_5 = "#28725A"
+variant_6 = "#225F4B"
+variant_7 = "#1C4C3C"
+
+azymos_bread - mathew 26:17,26
+variant_1 = "#C2AE93"
+variant_2 = "#AF9D85"
+variant_3 = "#9C8C78"
+variant_4 = "#8A7C6B"
+variant_5 = "#776C5E"
+variant_6 = "#655D52"
+variant_7 = "#524C45"
