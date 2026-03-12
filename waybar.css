@@ -26,21 +26,29 @@ window#waybar #workspaces button.active { color: @cyan; } /* Active Focus */
 #battery.warning { color: @yellow; }
 #battery.critical { color: @red; }
 
-/* 🌐 NETWORK & BLUETOOTH (Contextual Background Status) */
-#network { color: @cyan; }
-#network.disconnected { color: @red; }
-#bluetooth { color: @cyan; }
-#bluetooth.off, #bluetooth.disabled { color: @black; }
+/* 🌐 NETWORK (Cyan=Connected, Red=Off/Searching) */
+window#waybar #network.wifi,
+window#waybar #network.ethernet { color: @cyan; } 
+window#waybar #network { color: @red; }
+window#waybar #network.disconnected { color: @red; }
 
-/*  AUDIO */
-#pulseaudio.muted { color: @black; }
+/*  BLUETOOTH (Cyan=Connected, Yellow=On/Searching, Red=Off/Dead) */
+window#waybar #bluetooth.connected { color: @cyan; }
+window#waybar #bluetooth { color: @yellow; }
+window#waybar #bluetooth.disconnected { color: @red; }
+window#waybar #bluetooth.off,
+window#waybar #bluetooth.disabled { color: @red; }
+
+/*  AUDIO (Variable: Cyan=Active, Red=Muted) */
+window#waybar #pulseaudio { color: @cyan; }
+window#waybar #pulseaudio.muted { color: @red; }
 
 /* 🔴 ALERT STATES */
 window#waybar #custom-screenrecording-indicator.active,
 window#waybar #custom-voxtype.recording,
 window#waybar #custom-idle-indicator.active,
 window#waybar #custom-notification-silencing-indicator.active {
-  color: @red; 
+  color: @red;
 }
 
 /* Tooltips */
