@@ -1,5 +1,5 @@
 @define-color background #0C0C0C;
-@define-color foreground #C2AE93;
+@define-color foreground #40BE96;
 @define-color green #838F46;
 @define-color yellow #DCAE3D;
 @define-color red #B83E46;
@@ -13,12 +13,16 @@ window#waybar * {
 }
 
 window#waybar #workspaces button.empty { opacity: 0.2; }
-window#waybar #workspaces button.active { color: @cyan; } /* Active Focus */
 
 /* Neutral / Default UI Elements */
 #tray, #custom-expand-icon, #clock, #custom-omarchy, #custom-update, #pulseaudio, #cpu {
   color: @foreground;
 }
+
+window#waybar #custom-omarchy { color: @blue;}
+window#waybar #clock { color: @cyan;}
+window#waybar #custom-expand-icon { color: @cyan;}
+window#waybar #cpu { color: @blue;}
 
 /* 🔋 BATTERY */
 #battery { color: @foreground; }
@@ -26,20 +30,20 @@ window#waybar #workspaces button.active { color: @cyan; } /* Active Focus */
 #battery.warning { color: @yellow; }
 #battery.critical { color: @red; }
 
-/* 🌐 NETWORK (Cyan=Connected, Red=Off/Searching) */
+/* 🌐 NETWORK (green=Connected, red=Off/Searching) */
 window#waybar #network.wifi,
-window#waybar #network.ethernet { color: @cyan; } 
+window#waybar #network.ethernet { color: @green; } 
 window#waybar #network { color: @red; }
 window#waybar #network.disconnected { color: @red; }
 
-/*  BLUETOOTH (Cyan=Connected, Yellow=On/Searching, Red=Off/Dead) */
-window#waybar #bluetooth.connected { color: @cyan; }
+/*  BLUETOOTH (green=Connected, yellow=On/Searching, Red=Off/Dead) */
+window#waybar #bluetooth.connected { color: @green; }
 window#waybar #bluetooth { color: @yellow; }
 window#waybar #bluetooth.disconnected { color: @red; }
 window#waybar #bluetooth.off,
 window#waybar #bluetooth.disabled { color: @red; }
 
-/*  AUDIO (Variable: Cyan=Active, Red=Muted) */
+/*  AUDIO (Variable: cyan=Active, Red=Muted) */
 window#waybar #pulseaudio { color: @cyan; }
 window#waybar #pulseaudio.muted { color: @red; }
 
