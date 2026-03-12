@@ -66,6 +66,11 @@ return {
 					BlinkCmpLabel = { fg = c.text }, -- Force unselected text to be fully readable
 					BlinkCmpLabelMatch = { fg = c.teal, bold = true }, -- Matching typed chars are Cyan
 
+					-- Word under cursor (Solid Cyan Block - Matches Visual)
+					LspReferenceText = { bg = c.teal, fg = c.base, bold = true },
+					LspReferenceRead = { bg = c.teal, fg = c.base, bold = true },
+					LspReferenceWrite = { bg = c.teal, fg = c.base, bold = true },
+
 					-- Picker UI (Telescope/Snacks active prompts)
 					TelescopeMatching = { fg = c.teal, bold = true },
 					TelescopeSelectionCaret = { fg = c.teal },
@@ -100,6 +105,25 @@ return {
 					["@keyword.control"] = { fg = c.mauve, italic = true, bold = true },
 				}
 			end,
+		},
+	},
+
+	{
+		-- 1. Thick, Square Command Line
+		"folke/noice.nvim",
+		opts = {
+			views = {
+				cmdline_popup = {
+					border = {
+						style = { "┏", "━", "┓", "┃", "┛", "━", "┗", "┃" },
+					},
+				},
+				cmdline_popupmenu = {
+					border = {
+						style = { "┏", "━", "┓", "┃", "┛", "━", "┗", "┃" },
+					},
+				},
+			},
 		},
 	},
 
