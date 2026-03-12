@@ -1,50 +1,51 @@
-@define-color background #080608;
+@define-color background #040B0A;
 @define-color foreground #C2AE93;
+@define-color green #838F46;
+@define-color yellow #DCAE3D;
+@define-color red #B83E46;
+@define-color blue #6C9FBF;
+@define-color cyan #40BE96;
+@define-color black #243342;
 
-/* Enforce font styling safely over local wildcard rules */
 window#waybar * {
   font-weight: bold;
   font-size: 14px;
 }
 
-/* Specificity override: beats local style.css opacity rules safely */
-window#waybar #workspaces button.empty {
-  opacity: 0.2;
+window#waybar #workspaces button.empty { opacity: 0.2; }
+window#waybar #workspaces button.active { color: @blue; } /* Active Focus */
+
+/* Neutral / Default UI Elements */
+#tray, #custom-expand-icon, #clock, #custom-omarchy, #custom-update, #pulseaudio, #cpu {
+  color: @foreground;
 }
 
-/* Module Colors */
-#cpu,
-#battery,
-#pulseaudio,
-#custom-omarchy,
-#custom-screenrecording-indicator,
-#custom-update {
-  color: #DCAE3D;
-}
+/* 🔋 BATTERY */
+#battery { color: @foreground; }
+#battery.charging, #battery.plugged, #battery.full { color: @green; }
+#battery.warning { color: @yellow; }
+#battery.critical { color: @red; }
 
-#tray,
-#custom-expand-icon {
-  color: #C2AE93;
-}
+/* 🌐 NETWORK & BLUETOOTH (Contextual Background Status) */
+#network { color: @cyan; }
+#network.disconnected { color: @red; }
+#bluetooth { color: @cyan; }
+#bluetooth.off, #bluetooth.disabled { color: @black; }
 
-#bluetooth,
-#network {
-  color: #729B59;
-}
+/*  AUDIO */
+#pulseaudio.muted { color: @black; }
 
-#clock {
-  color: #C2AE93;
-}
-
-/* Alert States */
-#custom-screenrecording-indicator.active,
-#custom-voxtype.recording {
-  color: #B83E46;
+/* 🔴 ALERT STATES */
+window#waybar #custom-screenrecording-indicator.active,
+window#waybar #custom-voxtype.recording,
+window#waybar #custom-idle-indicator.active,
+window#waybar #custom-notification-silencing-indicator.active {
+  color: @red; 
 }
 
 /* Tooltips */
 tooltip {
-  background-color: #080608;
-  border: 3px solid #DCAE3D;
+  background-color: @background;
+  border: 3px solid @cyan;
   font-weight: bold;
 }
