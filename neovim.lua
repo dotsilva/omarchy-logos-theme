@@ -48,7 +48,19 @@ return {
 					CursorLineNr = { fg = c.teal, bold = true },
 					Search = { fg = c.base, bg = c.teal },
 					IncSearch = { fg = c.base, bg = c.teal },
-					PmenuSel = { bg = c.surface0 },
+
+					-- Popup Menus (Autocomplete for Cmdline & Code)
+					Pmenu = { fg = c.text, bg = c.base }, -- Standard text on dark background
+					PmenuSel = { fg = c.base, bg = c.teal, bold = true }, -- Active selection is Cyan
+					PmenuSbar = { bg = c.base },
+					PmenuThumb = { bg = c.surface0 },
+					WildMenu = { fg = c.base, bg = c.teal, bold = true }, -- Native command line selection
+
+					-- Blink Autocomplete Specifics
+					BlinkCmpMenu = { fg = c.text, bg = c.base },
+					BlinkCmpMenuSelection = { fg = c.base, bg = c.teal, bold = true },
+					BlinkCmpLabel = { fg = c.text }, -- Force unselected text to be fully readable
+					BlinkCmpLabelMatch = { fg = c.teal, bold = true }, -- Matching typed chars are Cyan
 
 					-- Picker UI (Telescope/Snacks active prompts)
 					TelescopeMatching = { fg = c.teal, bold = true },
@@ -68,9 +80,6 @@ return {
 					NoiceCmdlineIcon = { fg = c.teal },
 					NoiceCmdlinePopupBorderSearch = { fg = c.teal },
 					NoiceCmdlineIconSearch = { fg = c.teal },
-
-					-- Blink Autocomplete (Active matching text)
-					BlinkCmpLabelMatch = { fg = c.teal, bold = true },
 
 					-- Flash.nvim (Prevent jump labels from using Red/Yellow Alarms)
 					FlashLabel = { fg = c.base, bg = c.teal, bold = true },
