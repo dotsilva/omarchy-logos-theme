@@ -1,10 +1,10 @@
-@define-color selected-text #0C0C0C;
-@define-color text #C2AE93;
 @define-color base #0C0C0C;
-@define-color border #3AAB87;
+@define-color text #C2AE93; /* FIXED: Was #0C0C0C. Now Beige so static tabs are visible */
 @define-color foreground #C2AE93;
 @define-color background #0C0C0C;
+@define-color border #3AAB87; /* Matched strictly to your Neovim Cyan */
 @define-color hover #3AAB87;
+@define-color selected-text #0C0C0C;
 
 window {
   /* keep default size, no background needed here */
@@ -19,11 +19,12 @@ window .box-wrapper {
   margin: 0 auto;
 }
 
+/* The Search Box follows the Neovim Noice Cmdline Rule */
 window .search-container,
 window .search {
-  background: @hover;
-  color: @foreground;
-  border: none;
+  background: @background; /* Dark background */
+  color: @text;            /* Beige readable text */
+  border: 2px solid @border; /* Cyan interaction border */
   border-radius: 0px;
   padding: 8px 12px;
   margin: 4px 0;
@@ -31,7 +32,7 @@ window .search {
   font-weight: 500;
 }
 
-/* This section handles the keyboard navigation highlighting */
+/* The Active Selection Rule (Cyan background, Dark text) */
 child:selected,
 child:hover {
   background: @hover;
@@ -39,8 +40,10 @@ child:hover {
   border-radius: 0px;
 }
 
-/* Ensure the text inside the selected item doesn't disappear */
+/* Force text inside the selection to invert to Dark Base */
 child:selected .item-text,
-child:selected .item-subtext {
+child:selected .item-subtext,
+child:hover .item-text,
+child:hover .item-subtext {
   color: @selected-text;
 }
