@@ -1,23 +1,47 @@
+# water_of_life_2 - Revelation 22:1,17
 accent = "#3AAB87"
+# water_of_life_2 - Revelation 22:1,17
 cursor = "#3AAB87"
+# broken_bread_1 - Matthew 26:17,26
 foreground = "#C2AE93"
+# darkness_6 - Matthew 27:45
 background = "#0C0C0C"
+# darkness_6 - Matthew 27:45
 selection_foreground = "#0C0C0C"
+# water_of_life_2 - Revelation 22:1,17
 selection_background = "#3AAB87"
 
+# darkness_1 - Matthew 27:45
 color0 = "#484848"
+# poured_wine_1 - Matthew 26:27-29
 color1 = "#B83E46"
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 color2 = "#838F46"
+# royal_sash_1 - Revelation 1:13
 color3 = "#DCAE3D"
+# resurrection_morning_1 - Mark 16:2
 color4 = "#6C9FBF"
+# thorned_veil_1 - Exodus 26:31; Matthew 27:51
 color5 = "#8B476D"
+# water_of_life_2 - Revelation 22:1,17
 color6 = "#3AAB87"
+# broken_bread_1 - Matthew 26:17,26
 color7 = "#C2AE93"
+
+# Bright variant is bloat
+# darkness_1 - Matthew 27:45
 color8 = "#484848"
+# poured_wine_1 - Matthew 26:27-29
 color9 = "#B83E46"
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 color10 = "#838F46"
+# royal_sash_1 - Revelation 1:13
 color11 = "#DCAE3D"
+# resurrection_morning_1 - Mark 16:2
 color12 = "#6C9FBF"
+# thorned_veil_1 - Exodus 26:31; Matthew 27:51
 color13 = "#8B476D"
+# water_of_life_2 - Revelation 22:1,17
 color14 = "#3AAB87"
+# broken_bread_1 - Matthew 26:17,26
 color15 = "#C2AE93"
