@@ -1,12 +1,13 @@
-@define-color background #0C0C0C;
-@define-color foreground #3AAB87;
-@define-color green #838F46;
-@define-color yellow #DCAE3D;
-@define-color red #B83E46;
-@define-color blue #6C9FBF;
-@define-color cyan #3AAB87;
-@define-color black #484848;
-@define-color white #C2AE93;
+@define-color background #0C0C0C; /* darkness_6 - Matthew 27:45 */
+@define-color foreground #3AAB87; /* water_of_life_2 - Revelation 22:1,17 */
+/* here cyan need to be fg to make workspaces buttons cyan, so while named foreground it is being still treated as ansi cyan, not white  */
+@define-color green #838F46; /* gethsemane_oil_1 - Exodus 27:20; Matthew 26:36 */
+@define-color yellow #DCAE3D; /* royal_sash_1 - Revelation 1:13 */
+@define-color red #B83E46; /* poured_wine_1 - Matthew 26:27-29 */
+@define-color blue #6C9FBF; /* resurrection_morning_1 - Mark 16:2 */
+@define-color cyan #3AAB87; /* water_of_life_2 - Revelation 22:1,17 */
+@define-color black #484848; /* darkness_1 - Matthew 27:45 */
+@define-color white #C2AE93; /* broken_bread_1 - Matthew 26:17,26 */
 
 window#waybar * {
   font-weight: bold;
