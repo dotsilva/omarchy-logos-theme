@@ -1,83 +1,123 @@
 # Main background, empty for terminal default, need to be empty if you want transparent background
+# darkness_6 - Matthew 27:45
 theme[main_bg]="#0C0C0C"
 
 # Main text color
+# broken_bread_1 - Matthew 26:17,26
 theme[main_fg]="#C2AE93"
 
 # Title color for boxes
+# resurrection_morning_1 - Mark 16:2
 theme[title]="#6C9FBF"
 
 # Highlight color for keyboard shortcuts
+# water_of_life_2 - Revelation 22:1,17
 theme[hi_fg]="#3AAB87"
 
 # Background color of selected item in processes box
+# water_of_life_2 - Revelation 22:1,17
 theme[selected_bg]="#3AAB87"
 
 # Foreground color of selected item in processes box
+# darkness_6 - Matthew 27:45
 theme[selected_fg]="#0C0C0C"
 
 # Color of inactive/disabled text
+# darkness_1 - Matthew 27:45
 theme[inactive_fg]="#484848"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+# water_of_life_2 - Revelation 22:1,17
 theme[proc_misc]="#3AAB87"
 
 # Cpu box outline color
+# darkness_1 - Matthew 27:45
 theme[cpu_box]="#484848"
 
 # Memory/disks box outline color
+# darkness_1 - Matthew 27:45
 theme[mem_box]="#484848"
 
 # Net up/down box outline color
+# darkness_1 - Matthew 27:45
 theme[net_box]="#484848"
 
 # Processes box outline color
+# darkness_1 - Matthew 27:45
 theme[proc_box]="#484848"
 
 # Box divider line and small boxes line color
+# darkness_1 - Matthew 27:45
 theme[div_line]="#484848"
 
 # Temperature graph colors
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 theme[temp_start]="#838F46"
+# royal_sash_1 - Revelation 1:13
 theme[temp_mid]="#DCAE3D"
+# poured_wine_1 - Matthew 26:27-29
 theme[temp_end]="#B83E46"
 
 # CPU graph colors
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 theme[cpu_start]="#838F46"
+# royal_sash_1 - Revelation 1:13
 theme[cpu_mid]="#DCAE3D"
+# poured_wine_1 - Matthew 26:27-29
 theme[cpu_end]="#B83E46"
 
 # Mem/Disk free meter
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 theme[free_start]="#838F46"
+# royal_sash_1 - Revelation 1:13
 theme[free_mid]="#DCAE3D"
+# poured_wine_1 - Matthew 26:27-29
 theme[free_end]="#B83E46"
 
 # Mem/Disk cached meter
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 theme[cached_start]="#838F46"
+# royal_sash_1 - Revelation 1:13
 theme[cached_mid]="#DCAE3D"
+# poured_wine_1 - Matthew 26:27-29
 theme[cached_end]="#B83E46"
 
 # Mem/Disk available meter
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 theme[available_start]="#838F46"
+# royal_sash_1 - Revelation 1:13
 theme[available_mid]="#DCAE3D"
+# poured_wine_1 - Matthew 26:27-29
 theme[available_end]="#B83E46"
 
 # Mem/Disk used meter
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 theme[used_start]="#838F46"
+# royal_sash_1 - Revelation 1:13
 theme[used_mid]="#DCAE3D"
+# poured_wine_1 - Matthew 26:27-29
 theme[used_end]="#B83E46"
 
 # Download graph colors
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 theme[download_start]="#838F46"
+# royal_sash_1 - Revelation 1:13
 theme[download_mid]="#DCAE3D"
+# poured_wine_1 - Matthew 26:27-29
 theme[download_end]="#B83E46"
 
 # Upload graph colors
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 theme[upload_start]="#838F46"
+# royal_sash_1 - Revelation 1:13
 theme[upload_mid]="#DCAE3D"
+# poured_wine_1 - Matthew 26:27-29
 theme[upload_end]="#B83E46"
 
 # Process box color gradient for threads, mem and cpu usage
+# gethsemane_oil_1 - Exodus 27:20; Matthew 26:36
 theme[process_start]="#838F46"
+# royal_sash_1 - Revelation 1:13
 theme[process_mid]="#DCAE3D"
+# poured_wine_1 - Matthew 26:27-29
 theme[process_end]="#B83E46"
