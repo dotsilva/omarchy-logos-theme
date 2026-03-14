@@ -1,11 +1,14 @@
-/* Base Variables (Cyan active state) */
+/* darkness_6 - Matthew 27:45 */
 @define-color background-color #0C0C0C;
+/* water_of_life_2 - Revelation 22:1,17 */
 @define-color border-color #3AAB87;
+/* water_of_life_2 - Revelation 22:1,17 */
 @define-color label #3AAB87;
+/* image: resurrection_morning_1 - Mark 16:2 */
 @define-color image #6C9FBF;
+/* progress: water_of_life_2 - Revelation 22:1,17 */
 @define-color progress #3AAB87;
 
-/* --- OVERRIDES: Specificity Hacks --- */
 
 /* 1. Force 3px border (Outranks the generic 'window' tag in style.css) */
 window#osd {
@@ -18,17 +21,17 @@ window#osd {
  * but maybe it will in the futury
  * so i am leaving it here in the hope of a future update */
 
+
 /* 2. Muted State (Red = Stop/Alarm) */
+/* color: poured_wine_1 - Matthew 26:27-29 */
 /*
 window#osd.muted {
   border-color: #B83E46;
 }
-
 window#osd.muted label,
 window#osd.muted image {
   color: #B83E46;
 }
-
 window#osd.muted progress {
   background-color: #B83E46;
 }
