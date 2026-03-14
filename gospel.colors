@@ -1,13 +1,13 @@
-# crucifixion - matthew 27:45
-crucifixion_1 = #484848  # rgb(72, 72, 72)
-crucifixion_2 = #3C3C3C  # rgb(60, 60, 60)
-crucifixion_3 = #303030  # rgb(48, 48, 48)
-crucifixion_4 = #242424  # rgb(36, 36, 36)
-crucifixion_5 = #181818  # rgb(24, 24, 24)
-crucifixion_6 = #0C0C0C  # rgb(12, 12, 12)
-crucifixion_7 = #000000  # rgb(0, 0, 0)
+# darkness - matthew 27:45
+darkness_1 = #484848
+darkness_2 = #3C3C3C
+darkness_3 = #303030
+darkness_4 = #242424
+darkness_5 = #181818
+darkness_6 = #0C0C0C
+darkness_7 = #000000
 
-# supper_wine - mathew 26:27-29
+# poured_wine - mathew 26:27-29
 poured_wine_1 = #B83E46  # rgb(184, 62, 70)
 poured_wine_2 = #A33E45  # rgb(163, 62, 69)
 poured_wine_3 = #8E3E43  # rgb(142, 62, 67)
