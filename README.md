@@ -1,4 +1,4 @@
-# covenant
+# Covenant
 
 ```txt
 I Corinthians 11
@@ -14,13 +14,13 @@ death till he come.
 ASV
 ```
 
-an opionionated omarchy theme featuring:
-**Bible verses as background**,
-**biblically inspired colors** and
-**an desire for logic and consistency**.
+![Covenant theme preview](https://raw.githubusercontent.com/dotsilva/omarchy-diatheke-theme/master/preview.png)
 
 ```bash
 omarchy-theme-install https://github.com/dotsilva/omarchy-covenant-theme.git
 ```
 
-![covenant preview](https://raw.githubusercontent.com/dotsilva/omarchy-diatheke-theme/master/preview.png)
+an opionionated omarchy theme featuring:
+**Bible verses as background**,
+**biblically inspired colors** and
+**an desire for logic and consistency**.
