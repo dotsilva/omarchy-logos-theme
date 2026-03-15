@@ -46,8 +46,6 @@ An opinionated Omarchy theme featuring:
 * **White (`#C2AE93`) - `broken_bread_1` (Matthew 26:17, 26)**
 * **Semantics:** Standard foreground color; neutral generic labels.
 
-### colors
-
 ![Covenant color palette](https://raw.githubusercontent.com/dotsilva/omarchy-covenant-theme/master/extras/covenant-colors.png)
 
 If you like this color palette you can easily get it [here](https://raw.githubusercontent.com/dotsilva/omarchy-covenant-theme/master/extras/covenant-colors.colors)
