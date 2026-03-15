@@ -8,13 +8,13 @@ darkness_6 = #0C0C0C, rgb(12, 12, 12)
 darkness_7 = #000000, rgb(0, 0, 0)
 
 # poured_wine - mathew 26:27-29
-poured_wine_1 = #B83E46, rgb(184, 62, 70)
-poured_wine_2 = #A33E45, rgb(163, 62, 69)
-poured_wine_3 = #8E3E43, rgb(142, 62, 67)
-poured_wine_4 = #7A3D40, rgb(122, 61, 64)
-poured_wine_5 = #653C3E, rgb(101, 60, 62)
-poured_wine_6 = #503A3B, rgb(80, 58, 59)
-poured_wine_7 = #3B3939, rgb(59, 57, 57)
+poured_wine_1 = #B83E46,  rgb(184, 62, 70)
+poured_wine_2 = #A2373E,  rgb(162, 55, 62)
+poured_wine_3 = #8B2F35,  rgb(139, 47, 53)
+poured_wine_4 = #75282D,  rgb(117, 40, 45)
+poured_wine_5 = #5F2024,  rgb(95, 32, 36)
+poured_wine_6 = #48191C,  rgb(72, 25, 28)
+poured_wine_7 = #321113,  rgb(50, 17, 19)
 
 # gethsemane_oil - exodus 27:20; Mathew 26:36
 gethsemane_oil_1 = #838F46, rgb(131, 143, 70)
