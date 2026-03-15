@@ -50,7 +50,7 @@ return {
 					Visual = { bg = c.teal, fg = c.base, bold = true },
 
 					-- Cursor Line: Subtle structural underline so Treesitter syntax highlighting survives
-					CursorLine = { bg = "NONE", underdouble = true, sp = c.surface1 },
+					CursorLine = { bg = "NONE", underdouble = true, sp = c.teal },
 					CursorLineNr = { fg = c.teal, bold = true }, -- Cyan anchor for the eyes
 
 					-- Popup Menus (Autocomplete for Cmdline & Code)
