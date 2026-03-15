@@ -1,6 +1,6 @@
 @define-color background #0C0C0C; /* darkness_6 - Matthew 27:45 */
 @define-color foreground #4AA893; /* water_of_life_1 - Revelation 22:1,17 */
-/* here cyan need to be fg to make workspaces buttons cyan, so while named foreground it is being still treated as ansi cyan, not white  */
+/* here cyan needs to be fg to make workspaces buttons cyan, so while named foreground it is still treated as ansi cyan, not white  */
 @define-color green #838F46; /* gethsemane_1 - Exodus 27:20; Matthew 26:36 */
 @define-color yellow #DCAE3D; /* royal_sash_1 - Revelation 1:13 */
 @define-color red #B83E46; /* poured_wine_1 - Matthew 26:27-29 */

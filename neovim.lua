@@ -18,23 +18,23 @@ return {
 					overlay0 = "#484848", -- darkness_1 - Matthew 27:45
 					overlay1 = "#484848", -- darkness_1 - Matthew 27:45
 					overlay2 = "#484848", -- darkness_1 - Matthew 27:45
-					text = "#C2AE93", -- broken_bread_1 - Mathew 26:17,26
-					subtext0 = "#C2AE93", -- broken_bread_1 - Mathew 26:17,26
-					subtext1 = "#C2AE93", -- broken_bread_1 - Mathew 26:17,26
-					red = "#B83E46", -- poured_wine_1 - Mathew 26:27-29
-					maroon = "#B83E46", -- poured_wine_1 - Mathew 26:27-29
+					text = "#C2AE93", -- broken_bread_1 - Matthew 26:17,26
+					subtext0 = "#C2AE93", -- broken_bread_1 - Matthew 26:17,26
+					subtext1 = "#C2AE93", -- broken_bread_1 - Matthew 26:17,26
+					red = "#B83E46", -- poured_wine_1 - Matthew 26:27-29
+					maroon = "#B83E46", -- poured_wine_1 - Matthew 26:27-29
 					peach = "#DCAE3D", -- royal_sash_1 - Revelation 1:13
 					yellow = "#DCAE3D", -- royal_sash_1 - Revelation 1:13
-					green = "#838F46", -- gethsemane_1 - Exodus 27:20; Mathew 26:36
+					green = "#838F46", -- gethsemane_1 - Exodus 27:20; Matthew 26:36
 					teal = "#4AA893", -- water_of_life_1 - Revelation 22:1,17
 					sky = "#4AA893", -- water_of_life_1 - Revelation 22:1,17
 					lavender = "#6C9FBF", -- first_day_1 - Mark 16:2
 					sapphire = "#6C9FBF", -- first_day_1 - Mark 16:2
 					blue = "#6C9FBF", -- first_day_1 - Mark 16:2
-					rosewater = "#8B476D", -- thorned_veil_1 - Exodus 26:31; Mathew 27:51
-					flamingo = "#8B476D", -- thorned_veil_1 - Exodus 26:31; Mathew 27:51
-					pink = "#8B476D", -- thorned_veil_1 - Exodus 26:31; Mathew 27:51
-					mauve = "#8B476D", -- thorned_veil_1 - Exodus 26:31; Mathew 27:51
+					rosewater = "#8B476D", -- thorned_veil_1 - Exodus 26:31; Matthew 27:51
+					flamingo = "#8B476D", -- thorned_veil_1 - Exodus 26:31; Matthew 27:51
+					pink = "#8B476D", -- thorned_veil_1 - Exodus 26:31; Matthew 27:51
+					mauve = "#8B476D", -- thorned_veil_1 - Exodus 26:31; Matthew 27:51
 				},
 			},
 			custom_highlights = function(c)
